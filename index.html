@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>systems-neuroscience archive</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    max-width: 44rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.5;
+  }
+  h1 { font-size: 1.4rem; }
+  code { background: rgba(127,127,127,.15); padding: .1em .3em; border-radius: 4px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+  th, td { text-align: left; padding: .3rem .6rem; border-bottom: 1px solid rgba(127,127,127,.25); }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .muted { opacity: .65; font-size: .9em; }
+</style>
+</head>
+<body>
+<h1>systems-neuroscience Google Group archive</h1>
+<p>
+  JSON snapshots of the public
+  <a href="https://groups.google.com/g/systems-neuroscience">systems-neuroscience</a>
+  Google Group, one file per calendar month, refreshed daily.
+  Email addresses are redacted. Machine entry point:
+  <a href="data/index.json"><code>data/index.json</code></a>.
+</p>
+<p id="status" class="muted">Loading index…</p>
+<div id="out"></div>
+<script>
+fetch('data/index.json')
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(idx => {
+    const m = idx.meta;
+    document.getElementById('status').textContent =
+      `${m.topics_in_file} topics · last scraped ${m.scraped_at}` +
+      (m.topics_pending_bodies ? ` · ${m.topics_pending_bodies} older topics are metadata-only` : '');
+    const rows = idx.months.slice().reverse().map(mo =>
+      `<tr><td><a href="data/${mo.file}">${mo.month}</a></td>` +
+      `<td class="num">${mo.topics}</td>` +
+      `<td class="num">${mo.topics_pending_bodies}</td></tr>`).join('');
+    document.getElementById('out').innerHTML =
+      `<table><thead><tr><th>Month</th><th>Topics</th><th>Bodies pending</th></tr></thead>` +
+      `<tbody>${rows}</tbody></table>`;
+  })
+  .catch(e => {
+    document.getElementById('status').textContent =
+      'Could not load data/index.json (' + e.message + ').';
+  });
+</script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 Scrapes [systems-neuroscience Google Group](https://groups.google.com/g/systems-neuroscience) messages and packages them into public JSON files (monthly shards), updated daily by GitHub Actions. Intended for use by developer platforms with strict domain approval and enforced adherence to public API endpoints (specifically, /r/neuroscience's Carberry-3000 bot).
 
 - **Output:**
-  - [`data/messages-YYYY-MM.json`](data/)
+  - [`data/messages-YYYY-MM.json`](data/) ([pages link](https://rr-n.github.io/systems-neuro-scrape/data/index.json) for a more restrictive hostname)
   - [`data/index.json`](data/index.json) (lists every month w/ global metadata)
 - **Schedule:** daily at 05:23 UTC via [`.github/workflows/scrape.yml`](.github/workflows/scrape.yml)
 
