@@ -1,7 +1,6 @@
 # systems-neuro-scrape
 
-Scrapes [systems-neuroscience Google Group](https://groups.google.com/g/systems-neuroscience)
-(neuroscience job postings and announcements) messages and packages them into a public JSON file, updated daily by GitHub Actions. Intended for use by developer platforms with strict domain approval and enforced adherence to public API endpoints (specifically, /r/neuroscience's Carberry-3000 bot).
+Scrapes [systems-neuroscience Google Group](https://groups.google.com/g/systems-neuroscience) messages and packages them into a public JSON file, updated daily by GitHub Actions. Intended for use by developer platforms with strict domain approval and enforced adherence to public API endpoints (specifically, /r/neuroscience's Carberry-3000 bot).
 
 - **Output:** [`data/messages.json`](data/messages.json)
 - **Schedule:** daily at 05:23 UTC via [`.github/workflows/scrape.yml`](.github/workflows/scrape.yml)
