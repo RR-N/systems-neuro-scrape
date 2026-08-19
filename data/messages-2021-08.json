@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "group": "systems-neuroscience",
+  "month": "2021-08",
+  "topics": 7,
+  "topics_pending_bodies": 7
+ },
+ "topics": [
+  {
+   "id": "hHzfMd0tz4M",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/hHzfMd0tz4M",
+   "title": "Seeking Scientific Software Engineer @ Tübingen",
+   "snippet": "My lab at the Max Planck Institute for Biological Cybernetics in Tübingen, Germany, is looking to",
+   "created": "2021-08-04T04:34:55Z",
+   "created_ts": 1628051695,
+   "last_activity": "2021-08-11T11:18:15Z",
+   "last_activity_ts": 1628680695,
+   "num_messages": 1,
+   "authors": [
+    "Peter Dayan"
+   ],
+   "messages": null
+  },
+  {
+   "id": "GCn5CBVchqM",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/GCn5CBVchqM",
+   "title": "Workshop \"Emergent collective dynamics in neural systems\" - DynamicsDays2021 XL",
+   "snippet": "Workshop &quot;Emergent collective dynamics in neural systems&quot; Hybrid Mini-Symposium during",
+   "created": "2021-08-05T16:26:09Z",
+   "created_ts": 1628180769,
+   "last_activity": "2021-08-11T11:18:15Z",
+   "last_activity_ts": 1628680695,
+   "num_messages": 1,
+   "authors": [
+    "A. Torcini"
+   ],
+   "messages": null
+  },
+  {
+   "id": "6qAAyIFgHzw",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/6qAAyIFgHzw",
+   "title": "Open PhD Position in Computational Neurosience in Juelich, Germany - Generic metadata management for reproducible high-performance-computing simulation workflows",
+   "snippet": "The Institute of Neuroscience and Medicine - Computational and Systems Neuroscience (INM-6) at",
+   "created": "2021-08-06T13:04:46Z",
+   "created_ts": 1628255086,
+   "last_activity": "2021-08-11T11:18:35Z",
+   "last_activity_ts": 1628680715,
+   "num_messages": 1,
+   "authors": [
+    "Martina Reske"
+   ],
+   "messages": null
+  },
+  {
+   "id": "CRETcC2PuAc",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/CRETcC2PuAc",
+   "title": "Postdoc / Staff Scientist in light field / light sheet imaging",
+   "snippet": "The Goodhill lab at Washington University in St Louis is looking for an experienced optical physicist",
+   "created": "2021-08-06T14:26:14Z",
+   "created_ts": 1628259974,
+   "last_activity": "2021-08-11T11:18:36Z",
+   "last_activity_ts": 1628680716,
+   "num_messages": 1,
+   "authors": [
+    "g.goodhill"
+   ],
+   "messages": null
+  },
+  {
+   "id": "t_7cR76_sYE",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/t_7cR76_sYE",
+   "title": "NeuroML tutorials at INCF Training week: 23/26 August 2021",
+   "snippet": "Dear all, Apologies for the cross posts. We will be conducting a NeuroML tutorial at the upcoming",
+   "created": "2021-08-09T14:05:29Z",
+   "created_ts": 1628517929,
+   "last_activity": "2021-08-11T11:18:35Z",
+   "last_activity_ts": 1628680715,
+   "num_messages": 1,
+   "authors": [
+    "Ankur Sinha"
+   ],
+   "messages": null
+  },
+  {
+   "id": "FqzZ5vHywoc",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/FqzZ5vHywoc",
+   "title": "Registration for the EEGManyPipelines project is open",
+   "snippet": "Dear Colleague, The registration for the EEGManyPipelines project is now open until October 3rd, 2021",
+   "created": "2021-08-30T08:58:53Z",
+   "created_ts": 1630313933,
+   "last_activity": "2021-09-13T09:03:48Z",
+   "last_activity_ts": 1631523828,
+   "num_messages": 1,
+   "authors": [
+    "Johannes Algermissen"
+   ],
+   "messages": null
+  },
+  {
+   "id": "xzVKwgFnw4c",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/xzVKwgFnw4c",
+   "title": "CCN 2021 Program Announcement",
+   "snippet": "The program for this year&#39;s CCN is now available at http://ccneuro.org. Held online from Sep 7-24",
+   "created": "2021-08-30T16:50:38Z",
+   "created_ts": 1630342238,
+   "last_activity": "2021-09-13T09:03:48Z",
+   "last_activity_ts": 1631523828,
+   "num_messages": 1,
+   "authors": [
+    "Kendrick Kay"
+   ],
+   "messages": null
+  }
+ ]
+}

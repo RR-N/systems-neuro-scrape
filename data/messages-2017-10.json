@@ -1,0 +1,761 @@
+{
+ "meta": {
+  "group": "systems-neuroscience",
+  "month": "2017-10",
+  "topics": 50,
+  "topics_pending_bodies": 50
+ },
+ "topics": [
+  {
+   "id": "TPps0KpUXmk",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/TPps0KpUXmk",
+   "title": "COSYNE 2018: Call for workshop proposals and Meeting announcement",
+   "snippet": "==================================================== Computational and Systems Neuroscience 2018 (",
+   "created": "2017-10-01T19:14:52Z",
+   "created_ts": 1506885292,
+   "last_activity": "2017-10-05T04:50:10Z",
+   "last_activity_ts": 1507179010,
+   "num_messages": 1,
+   "authors": [
+    "Tomas Hromadka"
+   ],
+   "messages": null
+  },
+  {
+   "id": "QUyrtA47xwQ",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/QUyrtA47xwQ",
+   "title": "AoN Brainhack Warsaw 2017 'early bird' registration extended till 15th October!",
+   "snippet": "AoN Brainhack Warsaw 2017 November 17-19, 2017 University of Warsaw, Warsaw, Poland — The early bird",
+   "created": "2017-10-04T19:53:22Z",
+   "created_ts": 1507146802,
+   "last_activity": "2017-10-05T04:50:10Z",
+   "last_activity_ts": 1507179010,
+   "num_messages": 1,
+   "authors": [
+    "Daniel Borek"
+   ],
+   "messages": null
+  },
+  {
+   "id": "dSw_MX_HA_s",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/dSw_MX_HA_s",
+   "title": "Lecturer (Assistant Prof.) in Computational Neuroscience at Univ. of Leicester",
+   "snippet": "We are currently recruiting a lecturer in computational neuroscience at the Centre for Systems",
+   "created": "2017-10-05T12:48:00Z",
+   "created_ts": 1507207680,
+   "last_activity": "2017-10-05T15:25:30Z",
+   "last_activity_ts": 1507217130,
+   "num_messages": 1,
+   "authors": [
+    "Quian Quiroga, Rodrigo (Prof.)"
+   ],
+   "messages": null
+  },
+  {
+   "id": "Dm3mdKVUKno",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/Dm3mdKVUKno",
+   "title": "M-GATE: 15 PhD positions available in leading labs across Europe on memory physiology",
+   "snippet": "M-GATE is a network of 8 leading European institutions funded by a Marie Sklodowska-Curie Action of",
+   "created": "2017-10-06T16:48:59Z",
+   "created_ts": 1507308539,
+   "last_activity": "2017-10-07T07:22:52Z",
+   "last_activity_ts": 1507360972,
+   "num_messages": 1,
+   "authors": [
+    "Francesco Battaglia"
+   ],
+   "messages": null
+  },
+  {
+   "id": "YvQdFGj4j04",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/YvQdFGj4j04",
+   "title": "Doctoral studies in Computational/Theoretical Neuroscience at NYU",
+   "snippet": "New York University is home to a thriving interdisciplinary community of researchers using",
+   "created": "2017-10-06T16:55:04Z",
+   "created_ts": 1507308904,
+   "last_activity": "2017-10-07T07:22:52Z",
+   "last_activity_ts": 1507360972,
+   "num_messages": 1,
+   "authors": [
+    "Eero Simoncelli"
+   ],
+   "messages": null
+  },
+  {
+   "id": "WQHYaudQ-MA",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/WQHYaudQ-MA",
+   "title": "2018 Consortium of European Research on Emotion conference",
+   "snippet": "Dear colleagues Dear colleagues We are delighted to announce that we are hosting the 2018 biennial",
+   "created": "2017-10-08T10:20:18Z",
+   "created_ts": 1507458018,
+   "last_activity": "2017-10-08T10:54:47Z",
+   "last_activity_ts": 1507460087,
+   "num_messages": 1,
+   "authors": [
+    "Rachael Jack"
+   ],
+   "messages": null
+  },
+  {
+   "id": "GH7WkkpJcwc",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/GH7WkkpJcwc",
+   "title": "Positions available @ University of Exeter",
+   "snippet": "Dear Colleagues Quantitative Biology and Medicine @ Exeter is one of the fastest growing groups in",
+   "created": "2017-10-09T10:10:44Z",
+   "created_ts": 1507543844,
+   "last_activity": "2017-10-09T10:34:11Z",
+   "last_activity_ts": 1507545251,
+   "num_messages": 1,
+   "authors": [
+    "Marc Goodfellow"
+   ],
+   "messages": null
+  },
+  {
+   "id": "Qp-cNjJY5To",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/Qp-cNjJY5To",
+   "title": "Quantification of the Function of Criticality: Call for Contributions",
+   "snippet": "[Apologies if you received this message more than once] Dear Colleagues, We are calling for abstracts",
+   "created": "2017-10-09T18:22:36Z",
+   "created_ts": 1507573356,
+   "last_activity": "2017-10-09T18:25:50Z",
+   "last_activity_ts": 1507573550,
+   "num_messages": 1,
+   "authors": [
+    "Nergis Tomen"
+   ],
+   "messages": null
+  },
+  {
+   "id": "ZjsEiGyM3t4",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/ZjsEiGyM3t4",
+   "title": "Call for registration: Winter School \"Sex Hormones and the Brain\", Tübingen/Germany, 31 Jan - 2 Feb",
+   "snippet": "Dear colleagues, we are happy to announce our Winter School on &quot;Sex Hormones and the Brain&quot;",
+   "created": "2017-10-11T12:42:57Z",
+   "created_ts": 1507725777,
+   "last_activity": "2017-10-11T12:53:44Z",
+   "last_activity_ts": 1507726424,
+   "num_messages": 1,
+   "authors": [
+    "Aistė Šeibokaitė"
+   ],
+   "messages": null
+  },
+  {
+   "id": "mzCeA9iTnNQ",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/mzCeA9iTnNQ",
+   "title": "​PhD Position in Experimental and Computational Neuroscience",
+   "snippet": "PhD Position in Experimental and Computational Neuroscience ​ Federated Department of Biological",
+   "created": "2017-10-11T20:56:14Z",
+   "created_ts": 1507755374,
+   "last_activity": "2017-10-25T11:18:26Z",
+   "last_activity_ts": 1508930306,
+   "num_messages": 1,
+   "authors": [
+    "Jorge Golowasch"
+   ],
+   "messages": null
+  },
+  {
+   "id": "yqKT_7q5lp0",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/yqKT_7q5lp0",
+   "title": "PhD Position in Experimental and Computational Neuroscience",
+   "snippet": "PhD Position in Experimental and Computational Neuroscience ​ Federated Department of Biological",
+   "created": "2017-10-12T00:09:29Z",
+   "created_ts": 1507766969,
+   "last_activity": "2017-10-12T11:59:23Z",
+   "last_activity_ts": 1507809563,
+   "num_messages": 1,
+   "authors": [
+    "Horacio G. Rotstein"
+   ],
+   "messages": null
+  },
+  {
+   "id": "gSwP7K_q7Zg",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/gSwP7K_q7Zg",
+   "title": "Post-Doctoral Research Associate in Cognitive Neuroscience – UCD Psychology DEADLINE THIS EVENING",
+   "snippet": "Post-Doctoral Research Associate in Neuropsychology – UCD School of Psychology, Ireland Applications",
+   "created": "2017-10-13T09:52:55Z",
+   "created_ts": 1507888375,
+   "last_activity": "2017-10-13T09:57:18Z",
+   "last_activity_ts": 1507888638,
+   "num_messages": 1,
+   "authors": [
+    "Michelle Downes"
+   ],
+   "messages": null
+  },
+  {
+   "id": "Qxm8hlNLy-Q",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/Qxm8hlNLy-Q",
+   "title": "Open Postdoctoral Positions @ The Champalimaud Nueroscience Programme",
+   "snippet": "Dear Colleagues, The laboratory of Sensorimotor Integration at the Champalimaud Neuroscience",
+   "created": "2017-10-13T10:27:24Z",
+   "created_ts": 1507890444,
+   "last_activity": "2017-10-13T10:32:15Z",
+   "last_activity_ts": 1507890735,
+   "num_messages": 1,
+   "authors": [
+    "Eugenia Chiappe"
+   ],
+   "messages": null
+  },
+  {
+   "id": "v_FjXtedVzA",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/v_FjXtedVzA",
+   "title": "Postdoc in computational neuroscience of consciousness",
+   "snippet": "In the School of Computing at the University of Kent (UK), we are seeking to recruit a Research",
+   "created": "2017-10-13T12:57:00Z",
+   "created_ts": 1507899420,
+   "last_activity": "2017-10-13T13:38:56Z",
+   "last_activity_ts": 1507901936,
+   "num_messages": 1,
+   "authors": [
+    "Srivas Chennu"
+   ],
+   "messages": null
+  },
+  {
+   "id": "JBbDYzjRTZg",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/JBbDYzjRTZg",
+   "title": "New MSc in Computational Cognitive Neuroscience",
+   "snippet": "The Departments of Computing and Psychology at Goldsmiths, University of London (UK) are pleased to",
+   "created": "2017-10-13T13:18:32Z",
+   "created_ts": 1507900712,
+   "last_activity": "2017-10-13T13:38:56Z",
+   "last_activity_ts": 1507901936,
+   "num_messages": 1,
+   "authors": [
+    "Max Garagnani"
+   ],
+   "messages": null
+  },
+  {
+   "id": "D1LeycIGGQg",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/D1LeycIGGQg",
+   "title": "Postdoctoral Position in Cognitive Neuroscience",
+   "snippet": "Postdoctoral Position in Cognitive Neuroscience at the University of Rochester Postdoctoral position",
+   "created": "2017-10-13T13:51:59Z",
+   "created_ts": 1507902719,
+   "last_activity": "2017-10-13T14:42:19Z",
+   "last_activity_ts": 1507905739,
+   "num_messages": 1,
+   "authors": [
+    "Tatiana Pasternak"
+   ],
+   "messages": null
+  },
+  {
+   "id": "P2_IxFP5mXg",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/P2_IxFP5mXg",
+   "title": "Systems Neuroscience postdoc positions available at University of Pittsburgh",
+   "snippet": "Postdoctoral positions are available in the Runyan lab in the Department of Neuroscience at the",
+   "created": "2017-10-13T13:56:15Z",
+   "created_ts": 1507902975,
+   "last_activity": "2017-10-13T14:42:21Z",
+   "last_activity_ts": 1507905741,
+   "num_messages": 1,
+   "authors": [
+    "Runyan, Caroline A."
+   ],
+   "messages": null
+  },
+  {
+   "id": "0F68xdkMgKo",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/0F68xdkMgKo",
+   "title": "Postdoctoral Position in Computational Approaches to Rodent Social Neurophysiology",
+   "snippet": "Postdoctoral Position in Computational Approaches to Rodent Social Neurophysiology Yerkes National",
+   "created": "2017-10-13T19:43:17Z",
+   "created_ts": 1507923797,
+   "last_activity": "2017-10-13T22:53:14Z",
+   "last_activity_ts": 1507935194,
+   "num_messages": 1,
+   "authors": [
+    "Liu, Robert C"
+   ],
+   "messages": null
+  },
+  {
+   "id": "vaPMldXnK1w",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/vaPMldXnK1w",
+   "title": "Postdoctoral Position in Cognitive Neuroscience at the University of Rochester",
+   "snippet": "POSTDOCTORAL POSITION IN COGNITIVE NEUROSCIENCE Postdoctoral position to study cortical circuitry",
+   "created": "2017-10-14T18:15:17Z",
+   "created_ts": 1508004917,
+   "last_activity": "2017-10-14T18:23:24Z",
+   "last_activity_ts": 1508005404,
+   "num_messages": 1,
+   "authors": [
+    "Tatiana Pasternak"
+   ],
+   "messages": null
+  },
+  {
+   "id": "X-tKo0Gplgo",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/X-tKo0Gplgo",
+   "title": "2 open faculty positions: U Colorado Medical School",
+   "snippet": "Dear Colleagues, The Dept. of Physiology and Biophysics at the University of Colorado Medical School",
+   "created": "2017-10-14T18:20:08Z",
+   "created_ts": 1508005208,
+   "last_activity": "2017-10-14T18:23:24Z",
+   "last_activity_ts": 1508005404,
+   "num_messages": 1,
+   "authors": [
+    "Zylberberg, Joel L"
+   ],
+   "messages": null
+  },
+  {
+   "id": "WkHneCvYgis",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/WkHneCvYgis",
+   "title": "Postdoc position studying neural correlates of creativity (and collaboration)",
+   "snippet": "The Brain Dynamics Lab (BDL) directed by Dr. Manish Saggar at Stanford University has an immediate",
+   "created": "2017-10-15T07:36:58Z",
+   "created_ts": 1508053018,
+   "last_activity": "2017-10-15T12:08:03Z",
+   "last_activity_ts": 1508069283,
+   "num_messages": 1,
+   "authors": [
+    "Manish Saggar"
+   ],
+   "messages": null
+  },
+  {
+   "id": "TQiBH0-y48I",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/TQiBH0-y48I",
+   "title": "Postdoc position studying brain dynamics in healthy and patient populations",
+   "snippet": "The Brain Dynamics Lab (BDL) directed by Dr. Manish Saggar at Stanford University has an immediate",
+   "created": "2017-10-15T07:37:52Z",
+   "created_ts": 1508053072,
+   "last_activity": "2017-10-15T12:08:03Z",
+   "last_activity_ts": 1508069283,
+   "num_messages": 1,
+   "authors": [
+    "Manish Saggar"
+   ],
+   "messages": null
+  },
+  {
+   "id": "iwSWircQfz0",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/iwSWircQfz0",
+   "title": "Position Announcement: Computational Neuroscience Research Assistant",
+   "snippet": "Dear Colleagues, A Computational Neuroscience Research Assistant position is currently available at",
+   "created": "2017-10-16T00:02:07Z",
+   "created_ts": 1508112127,
+   "last_activity": "2017-10-17T11:59:24Z",
+   "last_activity_ts": 1508241564,
+   "num_messages": 1,
+   "authors": [
+    "Stacie Warren"
+   ],
+   "messages": null
+  },
+  {
+   "id": "EhP0ji6WKJc",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/EhP0ji6WKJc",
+   "title": "Tenure-Track Position at University of Maryland: Neurobiology/Biophysics",
+   "snippet": "The Department of Biology at the University of Maryland, College Park invites applications for a",
+   "created": "2017-10-17T15:19:51Z",
+   "created_ts": 1508253591,
+   "last_activity": "2017-10-17T15:28:47Z",
+   "last_activity_ts": 1508254127,
+   "num_messages": 1,
+   "authors": [
+    "Daniel A. Butts"
+   ],
+   "messages": null
+  },
+  {
+   "id": "WVs1sovJp7c",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/WVs1sovJp7c",
+   "title": "Postdoctoral position in memory and sleep at U-Michigan",
+   "snippet": "The Diba Lab for Neural Circuits and Memory at the University of Michigan is currently looking for a",
+   "created": "2017-10-17T20:17:14Z",
+   "created_ts": 1508271434,
+   "last_activity": "2017-10-17T21:20:39Z",
+   "last_activity_ts": 1508275239,
+   "num_messages": 1,
+   "authors": [
+    "Kamran Diba"
+   ],
+   "messages": null
+  },
+  {
+   "id": "_1xATKlEHYc",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/_1xATKlEHYc",
+   "title": "Postdoc/Scientist in Computational Neuroscience at Allen Institute for Brain Science",
+   "snippet": "POSITION SUMMARY: The Allen Institute for Brain Science is engaged in a major effort to understand",
+   "created": "2017-10-18T18:49:58Z",
+   "created_ts": 1508352598,
+   "last_activity": "2017-10-18T18:52:52Z",
+   "last_activity_ts": 1508352772,
+   "num_messages": 1,
+   "authors": [
+    "Uygar Sümbül"
+   ],
+   "messages": null
+  },
+  {
+   "id": "jTcUk9tufK8",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/jTcUk9tufK8",
+   "title": "COSYNE 2018: Abstract submission is now open, Call for workshop proposals",
+   "snippet": "==================================================== Computational and Systems Neuroscience 2018 (",
+   "created": "2017-10-18T21:20:20Z",
+   "created_ts": 1508361620,
+   "last_activity": "2017-10-18T21:31:24Z",
+   "last_activity_ts": 1508362284,
+   "num_messages": 1,
+   "authors": [
+    "Tomas Hromadka"
+   ],
+   "messages": null
+  },
+  {
+   "id": "grOSrH9flhM",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/grOSrH9flhM",
+   "title": "postdoctoral position on the mechanistic role of brain oscillations",
+   "snippet": "Dear all, I&#39;m offering a post-doc position on the role of nested oscillations in brain networks",
+   "created": "2017-10-19T08:00:28Z",
+   "created_ts": 1508400028,
+   "last_activity": "2017-10-19T08:49:50Z",
+   "last_activity_ts": 1508402990,
+   "num_messages": 1,
+   "authors": [
+    "Mathilde Bonnefond"
+   ],
+   "messages": null
+  },
+  {
+   "id": "rDlxMGjPino",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/rDlxMGjPino",
+   "title": "Postdoctoral positions in theoretical neuroscience",
+   "snippet": "Up to two postdoctoral positions are available at Brandeis University to work on exciting problems in",
+   "created": "2017-10-19T08:03:41Z",
+   "created_ts": 1508400221,
+   "last_activity": "2017-10-19T08:49:50Z",
+   "last_activity_ts": 1508402990,
+   "num_messages": 1,
+   "authors": [
+    "Jonathan D. Touboul"
+   ],
+   "messages": null
+  },
+  {
+   "id": "t8qb3O2A7SA",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/t8qb3O2A7SA",
+   "title": "Four lectureships in Psychology at the University of Southampton",
+   "snippet": "------ Apologies for multiple postings! ------ Dear Colleagues, I&#39;m excited to announce that we",
+   "created": "2017-10-19T08:27:18Z",
+   "created_ts": 1508401638,
+   "last_activity": "2017-10-19T08:49:50Z",
+   "last_activity_ts": 1508402990,
+   "num_messages": 1,
+   "authors": [
+    "Adams W."
+   ],
+   "messages": null
+  },
+  {
+   "id": "8lyrUL1pZms",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/8lyrUL1pZms",
+   "title": "Postdoc position - Neuronal circuits of emotion and adaptive behavior",
+   "snippet": "Dear all, Please spread the word about an open postdoc position within my newly founded laboratory at",
+   "created": "2017-10-19T14:15:42Z",
+   "created_ts": 1508422542,
+   "last_activity": "2017-10-19T15:08:30Z",
+   "last_activity_ts": 1508425710,
+   "num_messages": 1,
+   "authors": [
+    "Jonathan Fadok"
+   ],
+   "messages": null
+  },
+  {
+   "id": "DATk4Q4d5U8",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/DATk4Q4d5U8",
+   "title": "ECVP 2018 - Call for Symposia",
+   "snippet": "Call for Symposia The ECVP 2018 Organising Committee is now soliciting proposals for symposia (https:",
+   "created": "2017-10-19T15:57:01Z",
+   "created_ts": 1508428621,
+   "last_activity": "2017-10-19T19:01:18Z",
+   "last_activity_ts": 1508439678,
+   "num_messages": 1,
+   "authors": [
+    "tiziano agostini"
+   ],
+   "messages": null
+  },
+  {
+   "id": "8Zxm0fDihQs",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/8Zxm0fDihQs",
+   "title": "2nd HBP Student Conference: Call for submissions",
+   "snippet": "Dear all, In February 2018, the Education Programme Office of the Human Brain Project will organise",
+   "created": "2017-10-20T06:08:13Z",
+   "created_ts": 1508479693,
+   "last_activity": "2017-10-20T11:46:23Z",
+   "last_activity_ts": 1508499983,
+   "num_messages": 1,
+   "authors": [
+    "HBP Education"
+   ],
+   "messages": null
+  },
+  {
+   "id": "6XncG0lA5YI",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/6XncG0lA5YI",
+   "title": "Post-doc position in Human Intracranial Physiology and Human Memory",
+   "snippet": "Hi, I would like to post the following advertisement for an available post-doc position to the comp-",
+   "created": "2017-10-20T12:53:20Z",
+   "created_ts": 1508504000,
+   "last_activity": "2017-10-20T13:01:22Z",
+   "last_activity_ts": 1508504482,
+   "num_messages": 1,
+   "authors": [
+    "Zaghloul, Kareem (NIH/NINDS) [E]"
+   ],
+   "messages": null
+  },
+  {
+   "id": "1H5Rnp4zex0",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/1H5Rnp4zex0",
+   "title": "Two tenure-track assistant professor positions at the University of California, Merced",
+   "snippet": "Dear Colleagues, The Cognitive Science group at UC Merced (http://cogsci.ucmerced.edu) has two tenure",
+   "created": "2017-10-20T18:01:01Z",
+   "created_ts": 1508522461,
+   "last_activity": "2017-10-20T19:47:26Z",
+   "last_activity_ts": 1508528846,
+   "num_messages": 1,
+   "authors": [
+    "Chris Kello"
+   ],
+   "messages": null
+  },
+  {
+   "id": "IZQljon00zo",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/IZQljon00zo",
+   "title": "Two Post-doc/PhD positions in computational modeling of epilepsy",
+   "snippet": "Two Post-doc/PhD positions are available in the context of Frankfurt&#39;s new Center for",
+   "created": "2017-10-23T05:30:12Z",
+   "created_ts": 1508736612,
+   "last_activity": "2017-10-23T11:24:04Z",
+   "last_activity_ts": 1508757844,
+   "num_messages": 1,
+   "authors": [
+    "Jochen Triesch"
+   ],
+   "messages": null
+  },
+  {
+   "id": "T0kOsWVbD1k",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/T0kOsWVbD1k",
+   "title": "PhD in Distributed neural processing of self-generated visual input in a vertebrate brain",
+   "snippet": "PhD studentships in Systems Neuroscience are available in the groups of Dr Christopher L Buckley (",
+   "created": "2017-10-23T09:30:50Z",
+   "created_ts": 1508751050,
+   "last_activity": "2017-10-23T19:00:53Z",
+   "last_activity_ts": 1508785253,
+   "num_messages": 1,
+   "authors": [
+    "Christopher Buckley"
+   ],
+   "messages": null
+  },
+  {
+   "id": "ukblB72iiI8",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/ukblB72iiI8",
+   "title": "Post-doctoral position in the Conway lab at NIH",
+   "snippet": "Post-doctoral Fellowship at the National Eye Institute in Bevil Conway&#39;s lab The Conway",
+   "created": "2017-10-24T11:42:58Z",
+   "created_ts": 1508845378,
+   "last_activity": "2017-10-24T12:01:15Z",
+   "last_activity_ts": 1508846475,
+   "num_messages": 1,
+   "authors": [
+    "Conway, Bevil (NIH/NEI) [E]"
+   ],
+   "messages": null
+  },
+  {
+   "id": "KIQ9vI0HAGg",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/KIQ9vI0HAGg",
+   "title": "PhD Position, University of Bristol, UK",
+   "snippet": "Applications are invited for a fully funded 3-year PhD studentship (fees and stipend) at the",
+   "created": "2017-10-24T13:07:49Z",
+   "created_ts": 1508850469,
+   "last_activity": "2017-10-24T14:23:23Z",
+   "last_activity_ts": 1508855003,
+   "num_messages": 1,
+   "authors": [
+    "Ute Leonards"
+   ],
+   "messages": null
+  },
+  {
+   "id": "3ofKDYyYI-c",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/3ofKDYyYI-c",
+   "title": "Postdoctoral position, neurophysiology of addiction and motivation, New York City",
+   "snippet": "Fully funded postdoctoral position available starting March 2018 studying the neurophysiological",
+   "created": "2017-10-24T14:14:50Z",
+   "created_ts": 1508854490,
+   "last_activity": "2017-10-24T14:23:23Z",
+   "last_activity_ts": 1508855003,
+   "num_messages": 1,
+   "authors": [
+    "Luke Sjulson"
+   ],
+   "messages": null
+  },
+  {
+   "id": "PupO3rCuyKc",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/PupO3rCuyKc",
+   "title": "Postdoctoral position in The Ling Lab @ Boston University",
+   "snippet": "The Ling Lab (http://sites.bu.edu/vision) at Boston University has funding available for a",
+   "created": "2017-10-24T15:00:41Z",
+   "created_ts": 1508857241,
+   "last_activity": "2017-10-24T15:04:12Z",
+   "last_activity_ts": 1508857452,
+   "num_messages": 1,
+   "authors": [
+    "Ling, Sam"
+   ],
+   "messages": null
+  },
+  {
+   "id": "5rBqzRNWhQE",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/5rBqzRNWhQE",
+   "title": "Postdoctoral fellowship at Johns Hopkins University: neural circuits for learning and context",
+   "snippet": "The Kuchibhotla lab at Johns Hopkins University is actively seeking motivated postdoctoral fellows to",
+   "created": "2017-10-25T08:54:44Z",
+   "created_ts": 1508921684,
+   "last_activity": "2017-10-25T11:24:50Z",
+   "last_activity_ts": 1508930690,
+   "num_messages": 1,
+   "authors": [
+    "Kishore Kuchibhotla"
+   ],
+   "messages": null
+  },
+  {
+   "id": "jLUs-23qtpw",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/jLUs-23qtpw",
+   "title": "Postdoctoral position at University of Michigan-Ann Arbor",
+   "snippet": "Samuel Kwon Lab at the University of Michigan-Ann Arbor, is seeking a postdoctoral fellow to",
+   "created": "2017-10-25T12:49:31Z",
+   "created_ts": 1508935771,
+   "last_activity": "2017-10-25T12:53:13Z",
+   "last_activity_ts": 1508935993,
+   "num_messages": 1,
+   "authors": [
+    "EMAIL_REDACTED"
+   ],
+   "messages": null
+  },
+  {
+   "id": "Qz8RdQMpgHs",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/Qz8RdQMpgHs",
+   "title": "11 Fully funded PhD positions in vision and touch: perception and rendering of different materials",
+   "snippet": "Dear Colleagues, We invite applications from enthusiastic and capable students who would like to",
+   "created": "2017-10-25T16:21:16Z",
+   "created_ts": 1508948476,
+   "last_activity": "2017-10-25T16:26:19Z",
+   "last_activity_ts": 1508948779,
+   "num_messages": 2,
+   "authors": [
+    "Marina Bloj",
+    "Adams W."
+   ],
+   "messages": null
+  },
+  {
+   "id": "1JfgiPYPgZo",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/1JfgiPYPgZo",
+   "title": "UC Santa Barbara Neuroscience Faculty Positions",
+   "snippet": "3 junior faculty in various areas of neuroscience (Science ad here; individual UC Recruit ads below)",
+   "created": "2017-10-25T18:46:38Z",
+   "created_ts": 1508957198,
+   "last_activity": "2017-10-25T19:05:48Z",
+   "last_activity_ts": 1508958348,
+   "num_messages": 1,
+   "authors": [
+    "Miguel Eckstein"
+   ],
+   "messages": null
+  },
+  {
+   "id": "QVDcXyP0L2k",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/QVDcXyP0L2k",
+   "title": "Cluster of faculty positions in Computational Neuroscience at UC Davis",
+   "snippet": "The University of California at Davis is making a major expansion in Computational Neuroscience and",
+   "created": "2017-10-26T05:24:25Z",
+   "created_ts": 1508995465,
+   "last_activity": "2017-10-26T09:37:02Z",
+   "last_activity_ts": 1509010622,
+   "num_messages": 1,
+   "authors": [
+    "Mark Steven Goldman"
+   ],
+   "messages": null
+  },
+  {
+   "id": "UbXJRfwxmMU",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/UbXJRfwxmMU",
+   "title": "Postdoctoral position on modelling and neural analysis of perceptual decision-making at IDIBAPS / UPF (Barcelona)",
+   "snippet": "A postdoctoral research position in computational neuroscience is available immediately to work with",
+   "created": "2017-10-26T22:03:03Z",
+   "created_ts": 1509055383,
+   "last_activity": "2017-10-26T22:15:19Z",
+   "last_activity_ts": 1509056119,
+   "num_messages": 1,
+   "authors": [
+    "Alexandre Hyafil"
+   ],
+   "messages": null
+  },
+  {
+   "id": "WnoK6FcsVY0",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/WnoK6FcsVY0",
+   "title": "Postdoctoral position in the Defense Circuits Lab",
+   "snippet": "The defense circuits lab, headed by Prof. Philip Tovote, is looking for highly motivated individuals",
+   "created": "2017-10-27T08:11:03Z",
+   "created_ts": 1509091863,
+   "last_activity": "2017-10-27T09:56:03Z",
+   "last_activity_ts": 1509098163,
+   "num_messages": 1,
+   "authors": [
+    "Tovote, Philip"
+   ],
+   "messages": null
+  },
+  {
+   "id": "VY-VozwypL0",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/VY-VozwypL0",
+   "title": "3-year, ERC-funded, postdoctoral position: dopamine, movement & social cognition",
+   "snippet": "The School of Psychology at the University of Birmingham, UK, invites applications for a 3-year",
+   "created": "2017-10-27T13:34:24Z",
+   "created_ts": 1509111264,
+   "last_activity": "2017-10-27T13:58:11Z",
+   "last_activity_ts": 1509112691,
+   "num_messages": 1,
+   "authors": [
+    "Jennifer Cook"
+   ],
+   "messages": null
+  },
+  {
+   "id": "7kSqtunt0ww",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/7kSqtunt0ww",
+   "title": "Postdoc position at UC Berkeley: Limiting factors on spatial vision in the presence of vision loss",
+   "snippet": "Postdoc position at UC Berkeley: Limiting factors on spatial vision in the presence of vision loss",
+   "created": "2017-10-31T01:02:59Z",
+   "created_ts": 1509411779,
+   "last_activity": "2017-10-31T02:12:13Z",
+   "last_activity_ts": 1509415933,
+   "num_messages": 1,
+   "authors": [
+    "Susana Chung"
+   ],
+   "messages": null
+  }
+ ]
+}

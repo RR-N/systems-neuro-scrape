@@ -1,0 +1,100 @@
+{
+ "meta": {
+  "group": "systems-neuroscience",
+  "month": "2021-05",
+  "topics": 6,
+  "topics_pending_bodies": 6
+ },
+ "topics": [
+  {
+   "id": "yXSS59m0Hs8",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/yXSS59m0Hs8",
+   "title": "Job announcement: PhD candidate on ultrasound stimulation of the striatum in decision-making at Donders Institute, Nijmegen, the Netherlands",
+   "snippet": "Dear systems-neuroscience mailing list, our lab (PI: Hanneke den Ouden) at the Donders Institute (",
+   "created": "2021-05-17T09:11:29Z",
+   "created_ts": 1621242689,
+   "last_activity": "2021-05-30T16:15:59Z",
+   "last_activity_ts": 1622391359,
+   "num_messages": 1,
+   "authors": [
+    "Johannes Algermissen"
+   ],
+   "messages": null
+  },
+  {
+   "id": "abbwjIYnNFA",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/abbwjIYnNFA",
+   "title": "#ACDL2021, 4th Online & Onsite Advanced Course on Data Science & Machine Learning | July 19-23, 2021 | Certosa di Pontignano, Italy - Early Registration: by Tuesday June 15, 2021",
+   "snippet": "#ACDL2021, An Interdisciplinary Course: #BigData, #DeepLearning &amp; #ArtificialIntelligence without",
+   "created": "2021-05-17T16:32:32Z",
+   "created_ts": 1621269152,
+   "last_activity": "2021-05-30T16:15:59Z",
+   "last_activity_ts": 1622391359,
+   "num_messages": 1,
+   "authors": [
+    "Ludovico Montalcini"
+   ],
+   "messages": null
+  },
+  {
+   "id": "7nQIxaiEVLU",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/7nQIxaiEVLU",
+   "title": "Postdoctoral Position in Primate Social Neuroscience at Yale University",
+   "snippet": "We are hiring a new Postdoctoral Associate to be engaged in non-human primate social neuroscience",
+   "created": "2021-05-18T02:45:50Z",
+   "created_ts": 1621305950,
+   "last_activity": "2021-05-30T16:15:59Z",
+   "last_activity_ts": 1622391359,
+   "num_messages": 1,
+   "authors": [
+    "EMAIL_REDACTED"
+   ],
+   "messages": null
+  },
+  {
+   "id": "88ij0dvjIFw",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/88ij0dvjIFw",
+   "title": "Bernstein Conference 2021 - call for abstracts",
+   "snippet": "Each year the Bernstein Network invites the international computational neuroscience community to the",
+   "created": "2021-05-27T09:09:20Z",
+   "created_ts": 1622106560,
+   "last_activity": "2021-05-30T16:15:59Z",
+   "last_activity_ts": 1622391359,
+   "num_messages": 1,
+   "authors": [
+    "Anja Dorrn"
+   ],
+   "messages": null
+  },
+  {
+   "id": "8Rv3ueO44TU",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/8Rv3ueO44TU",
+   "title": "Workshop announcement of interest",
+   "snippet": "Functional Logic of Neural Circuits: Diamonds in the Rough An NSF-funded workshop in two phases.",
+   "created": "2021-05-27T16:22:50Z",
+   "created_ts": 1622132570,
+   "last_activity": "2021-05-30T16:17:35Z",
+   "last_activity_ts": 1622391455,
+   "num_messages": 1,
+   "authors": [
+    "Izquierdo, Eduardo J."
+   ],
+   "messages": null
+  },
+  {
+   "id": "rSawfvOpXA0",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/rSawfvOpXA0",
+   "title": "Call for papers for the 4th international workshop on machine learning in clinical neuroimaging",
+   "snippet": "Dear Colleagues, Please find below the call for papers for the International Workshop of Machine",
+   "created": "2021-05-30T09:37:08Z",
+   "created_ts": 1622367428,
+   "last_activity": "2021-05-30T16:17:35Z",
+   "last_activity_ts": 1622391455,
+   "num_messages": 1,
+   "authors": [
+    "MLCN Workshop"
+   ],
+   "messages": null
+  }
+ ]
+}
