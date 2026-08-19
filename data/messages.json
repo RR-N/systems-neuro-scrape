@@ -3,10 +3,10 @@
   "group": "systems-neuroscience",
   "group_email": "systems-neuroscience@googlegroups.com",
   "group_url": "https://groups.google.com/g/systems-neuroscience",
-  "scraped_at": "2026-08-19T02:56:14Z",
+  "scraped_at": "2026-08-19T03:09:38Z",
   "topics_reported_by_google": 2763,
   "topics_in_file": 2763,
-  "topics_pending_bodies": 2703,
+  "topics_pending_bodies": 2701,
   "complete": false
  },
  "topics": [
@@ -40642,7 +40642,19 @@
    "authors": [
     "Peter Dayan"
    ],
-   "messages": null
+   "messages": [
+    {
+     "id": "WMik2revAQAJ",
+     "author": "Peter Dayan",
+     "author_id": "103587286728238548608",
+     "created": "2026-03-19T16:25:33Z",
+     "created_ts": 1773937533,
+     "updated": "2026-03-24T17:53:31Z",
+     "title": "call for papers: Formal Models and Empirically Informed Simulations of Interpersonal Dynamics",
+     "body_html": "Dear colleagues,\r<br>\r<br>We would like to draw your attention to the Call for Papers for the\r<br>Special Issue &quot;Formal Models and Empirically Informed Simulations of\r<br>Interpersonal Dynamics&quot; in the journal Zeitschrift für Psychologie (a\r<br>journal published in English with a German title). The submission\r<br>deadline for proposals is July 15, 2026, and the submission deadline for\r<br>full manuscripts is November 15, 2026. \r<br>\r<br>Further information can be found at:\r<br><a href=\"https://econtent.hogrefe.com/doi/10.1027/2151-2604/a000619\" target=\"_blank\" rel=\"nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=en-US&amp;q=https://econtent.hogrefe.com/doi/10.1027/2151-2604/a000619&amp;source=gmail&amp;ust=1787195376054000&amp;usg=AOvVaw2eQaYz2Yli3JDkd257HC1p\">https://econtent.hogrefe.com/doi/10.1027/2151-2604/a000619</a> \r<br>\r<br>Kind regards,\r<br>Stefan Westermann and Peter Dayan\r<br>\r<br>---\r<br>\r<br>Topic of the Special Issue:\r<br>\r<br>Within a dyad of two interacting individuals, each serves as the\r<br>environment for the other and, in turn, experiences the other as their\r<br>environment. Capturing the complex interpersonal dynamics that emerge\r<br>from this interdependence is a major psychological and computational\r<br>challenge. Interactions become even richer given polyadic relationships\r<br>and larger groups. Mathematical and computational methods offer powerful\r<br>tools for uncovering the mechanisms that shape such interact ions.\r<br>\r<br>The topical issue &quot;Formal models and empirically informed simulations of\r<br>interpersonal dynamics&quot; will highlight recent advances in applying such\r<br>methods to the study of interpersonal processes. We invite\r<br>contributions from across psychological disciplines - including social,\r<br>clinical, and personality psychology - that employ frameworks such as\r<br>agent-based modeling, evolutionary game theory, Bayesian modeling,\r<br>active inference, and related approaches to provide formal ways of\r<br>representing, simulating, and analyzing interpersonal phenomena. Both\r<br>purely theory-driven, formal models and empirically informed simulations\r<br>are welcome, offering insights into the emergence, maintenance, and\r<br>change of interpersonal patterns.\r<br>\r<br>",
+     "body_text": "Dear colleagues,\n\nWe would like to draw your attention to the Call for Papers for the\nSpecial Issue \"Formal Models and Empirically Informed Simulations of\nInterpersonal Dynamics\" in the journal Zeitschrift für Psychologie (a\njournal published in English with a German title). The submission\ndeadline for proposals is July 15, 2026, and the submission deadline for\nfull manuscripts is November 15, 2026.\n\nFurther information can be found at:\nhttps://econtent.hogrefe.com/doi/10.1027/2151-2604/a000619\n\nKind regards,\nStefan Westermann and Peter Dayan\n\n---\n\nTopic of the Special Issue:\n\nWithin a dyad of two interacting individuals, each serves as the\nenvironment for the other and, in turn, experiences the other as their\nenvironment. Capturing the complex interpersonal dynamics that emerge\nfrom this interdependence is a major psychological and computational\nchallenge. Interactions become even richer given polyadic relationships\nand larger groups. Mathematical and computational methods offer powerful\ntools for uncovering the mechanisms that shape such interact ions.\n\nThe topical issue \"Formal models and empirically informed simulations of\ninterpersonal dynamics\" will highlight recent advances in applying such\nmethods to the study of interpersonal processes. We invite\ncontributions from across psychological disciplines - including social,\nclinical, and personality psychology - that employ frameworks such as\nagent-based modeling, evolutionary game theory, Bayesian modeling,\nactive inference, and related approaches to provide formal ways of\nrepresenting, simulating, and analyzing interpersonal phenomena. Both\npurely theory-driven, formal models and empirically informed simulations\nare welcome, offering insights into the emergence, maintenance, and\nchange of interpersonal patterns."
+    }
+   ]
   },
   {
    "id": "2T2ex0J8VoE",
@@ -40657,7 +40669,19 @@
    "authors": [
     "Lucia Melloni"
    ],
-   "messages": null
+   "messages": [
+    {
+     "id": "4XxI8revAQAJ",
+     "author": "Lucia Melloni",
+     "author_id": "114606907939973491137",
+     "created": "2026-03-21T09:53:51Z",
+     "created_ts": 1774086831,
+     "updated": "2026-03-24T17:53:31Z",
+     "title": "Consciousness Commons (ASSC satellite): build a study in 2 days + $25,000 seed funding",
+     "body_html": "<div style=\"line-break:after-white-space\"><p>Dear all,</p><p>What if we created a space to move from ideas to concrete research on consciousness, together?</p><p>Right after ASSC 2026, we are organizing <span><b>Consciousness Commons: Building Collaborative Science with Open Consciousness Data</b></span>, a two-day satellite workshop in <i>Santiago, Chile (July 4–5, 2026).</i></p><p>Consciousness Commons is designed for early-career researchers who want to move from ideas to concrete research. Working in interdisciplinary teams, participants will develop hypothesis-driven projects using openly available datasets, including those from the Cogitate consortium, with a strong focus on reproducibility and preregistration.</p><p>By the end of the workshop, each team will leave with a fully specified, preregistered study. Projects will also be eligible to compete for <span><b>$25,000 in seed funding</b></span> to support further development.</p><p><b>Key details:</b><b></b></p><p><span></span></p><ul><li><p>Open to PhD students, postdocs, and early-career researchers (≤10 years post-PhD)</p></li><li><p>Pre-event virtual kick-off: May 18–19 (TBC)</p></li><li><p>Application deadline: <b>April 13, 2026</b></p></li></ul><p>More information: <a href=\"https://consciousness-commons.github.io/cc-assc-2026\" target=\"_blank\" rel=\"nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=en-US&amp;q=https://consciousness-commons.github.io/cc-assc-2026&amp;source=gmail&amp;ust=1787195377374000&amp;usg=AOvVaw0WIfRp4IoS52lb9uUr-PTz\">https://consciousness-commons.github.io/cc-assc-2026</a></p><p>Apply here: <a href=\"https://forms.gle/c1xpSTk2sJ3oTzHZ6\" target=\"_blank\" rel=\"nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=en-US&amp;q=https://forms.gle/c1xpSTk2sJ3oTzHZ6&amp;source=gmail&amp;ust=1787195377374000&amp;usg=AOvVaw287R8RPX5Mqmj03Ujcxrrf\">https://forms.gle/c1xpSTk2sJ3oTzHZ6</a></p><p>Please share this opportunity with interested students and colleagues.</p><p>Best wishes,</p><p>The Consciousness Commons Team</p><div>\r\n<div dir=\"auto\" style=\"color:rgb(0,0,0);letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:none;line-break:after-white-space\"><div dir=\"auto\" style=\"color:rgb(0,0,0);font-family:&quot;Open Sans&quot;;font-size:12px;font-style:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;text-align:start;text-indent:0px;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:none;line-break:after-white-space\"><div dir=\"auto\" style=\"text-align:start;text-indent:0px;line-break:after-white-space\"><div dir=\"auto\" style=\"text-align:start;text-indent:0px;line-break:after-white-space\"><div dir=\"auto\" style=\"text-align:start;text-indent:0px;line-break:after-white-space\"><div dir=\"auto\" style=\"text-align:start;text-indent:0px;line-break:after-white-space\"><div dir=\"auto\" style=\"text-align:start;text-indent:0px;line-break:after-white-space\"><div style=\"text-align:start;text-indent:0px;line-break:after-white-space\"><div style=\"text-align:start;text-indent:0px;line-break:after-white-space\"><div style=\"color:rgb(0,0,0);font-family:Geneva;font-size:12px;font-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing:normal;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:none\">-- Lucia Melloni</div><div style=\"color:rgb(0,0,0);font-family:Geneva;font-size:12px;font-style:normal;font-variant-caps:normal;font-weight:normal;letter-spacing:normal;text-transform:none;white-space:normal;word-spacing:0px;text-decoration:none\"><img src=\"https://groups.google.com/group/systems-neuroscience/attach/1afb7f2487ce1/image003.png?part=0.1.1&amp;view=1\" alt=\"image003.png\"></div></div></div></div></div></div></div></div></div></div></div></div>",
+     "body_text": "Dear all,\nWhat if we created a space to move from ideas to concrete research on consciousness, together?\nRight after ASSC 2026, we are organizing Consciousness Commons: Building Collaborative Science with Open Consciousness Data, a two-day satellite workshop in Santiago, Chile (July 4–5, 2026).\nConsciousness Commons is designed for early-career researchers who want to move from ideas to concrete research. Working in interdisciplinary teams, participants will develop hypothesis-driven projects using openly available datasets, including those from the Cogitate consortium, with a strong focus on reproducibility and preregistration.\nBy the end of the workshop, each team will leave with a fully specified, preregistered study. Projects will also be eligible to compete for $25,000 in seed funding to support further development.\nKey details:\n\nOpen to PhD students, postdocs, and early-career researchers (≤10 years post-PhD)\n\nPre-event virtual kick-off: May 18–19 (TBC)\n\nApplication deadline: April 13, 2026\nMore information: https://consciousness-commons.github.io/cc-assc-2026\nApply here: https://forms.gle/c1xpSTk2sJ3oTzHZ6\nPlease share this opportunity with interested students and colleagues.\nBest wishes,\nThe Consciousness Commons Team\n\n-- Lucia Melloni"
+    }
+   ]
   },
   {
    "id": "MbGyVou7-bY",
