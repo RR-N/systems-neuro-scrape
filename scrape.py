@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scrape a public Google Group into a single JSON file.
+"""Scrape a public Google Group into monthly JSON files.
 
 Works against the modern Google Groups UI (groups.google.com/g/<name>):
   * The group front page server-renders the first 30 topics plus a
@@ -9,9 +9,13 @@ Works against the modern Google Groups UI (groups.google.com/g/<name>):
   * Each topic page server-renders every message body as HTML in its own
     AF_initDataCallback blob.
 
-The output JSON doubles as the scraper state: topics whose "messages" is
-null are known from the listing but not fetched yet, so a capped run
-(--max-fetch) resumes where the previous one stopped.
+Output is one JSON per calendar month of topic creation (UTC) —
+<out-dir>/messages-YYYY-MM.json — plus <out-dir>/index.json with global
+metadata. The shards double as the scraper state: topics whose "messages"
+is null are known from the listing but not fetched yet, so a capped run
+(--max-fetch) resumes where the previous one stopped. A legacy single-file
+messages.json in the output directory is absorbed and removed on the next
+run.
 
 Stdlib only — no pip installs needed in CI.
 """
@@ -340,24 +344,57 @@ def fetch_topic_messages(group_name, topic):
         )
 
 
+# ---------------------------------------------------------------------- storage
+
+def month_key(topic):
+    ts = topic.get("created_ts")
+    if not ts:
+        return "unknown"
+    return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m")
+
+
+def load_store(out_dir):
+    """Rebuild the topic store from the monthly shards, plus a legacy
+    single-file messages.json if one is still around."""
+    store = {}
+
+    def rank(t):
+        # prefer records with fetched bodies, then the freshest activity
+        return (t.get("messages") is not None, t.get("last_activity_ts") or 0)
+
+    files = sorted(out_dir.glob("messages-*.json"))
+    legacy = out_dir / "messages.json"
+    if legacy.exists():
+        files.append(legacy)
+    for f in files:
+        try:
+            doc = json.loads(f.read_text(encoding="utf-8"))
+        except ValueError:
+            print(f"  warning: skipping unparseable {f}", flush=True)
+            continue
+        for t in doc.get("topics", []):
+            old = store.get(t["id"])
+            if old is None or rank(t) > rank(old):
+                store[t["id"]] = t
+    return store
+
+
 # ------------------------------------------------------------------------- main
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--group", default="systems-neuroscience", help="group name from the groups.google.com/g/<name> URL")
-    ap.add_argument("--out", default="data/messages.json", help="output JSON path (also the resume state)")
+    ap.add_argument("--out-dir", default="data", help="output directory for the monthly JSON shards (also the resume state)")
     ap.add_argument("--max-fetch", type=int, default=500, help="max topic pages to fetch this run (backfill resumes next run)")
     ap.add_argument("--max-list-pages", type=int, default=None, help="cap listing pages walked (debugging)")
     ap.add_argument("--quick", action="store_true", help="stop walking the listing at the first page with no changes")
     ap.add_argument("--delay", type=float, default=1.0, help="seconds to sleep between topic fetches")
     args = ap.parse_args()
 
-    out_path = Path(args.out)
-    store = {}
-    if out_path.exists():
-        existing = json.loads(out_path.read_text(encoding="utf-8"))
-        store = {t["id"]: t for t in existing.get("topics", [])}
-        print(f"Loaded {len(store)} topics from {out_path}", flush=True)
+    out_dir = Path(args.out_dir)
+    store = load_store(out_dir)
+    if store:
+        print(f"Loaded {len(store)} topics from {out_dir}", flush=True)
 
     group_email, reported_total, changed = walk_topic_list(
         args.group, store, quick=args.quick, max_pages=args.max_list_pages
@@ -367,41 +404,89 @@ def main():
     pending.sort(key=lambda t: t.get("last_activity_ts") or 0, reverse=True)
     print(f"{len(store)} topics known, {len(changed)} new/updated, {len(pending)} pending body fetch", flush=True)
 
+    def save():
+        topics = sorted(store.values(), key=lambda t: (t.get("created_ts") or 0, t["id"]))
+        remaining = sum(1 for t in topics if t["messages"] is None)
+
+        by_month = {}
+        for t in topics:
+            by_month.setdefault(month_key(t), []).append(t)
+
+        out_dir.mkdir(parents=True, exist_ok=True)
+        months = []
+        for month in sorted(by_month):
+            shard = by_month[month]
+            shard_pending = sum(1 for t in shard if t["messages"] is None)
+            fname = f"messages-{month}.json"
+            # no scraped_at in shard meta: a month's file only changes when its
+            # topics do, so completed months stay byte-identical run to run
+            doc = {
+                "meta": {
+                    "group": args.group,
+                    "month": month,
+                    "topics": len(shard),
+                    "topics_pending_bodies": shard_pending,
+                },
+                "topics": shard,
+            }
+            (out_dir / fname).write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+            months.append(
+                {"month": month, "file": fname, "topics": len(shard), "topics_pending_bodies": shard_pending}
+            )
+
+        index = {
+            "meta": {
+                "group": args.group,
+                "group_email": group_email,
+                "group_url": f"{BASE}/g/{args.group}",
+                "scraped_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "topics_reported_by_google": reported_total,
+                "topics_in_file": len(topics),
+                "topics_pending_bodies": remaining,
+                "complete": remaining == 0,
+            },
+            "months": months,
+        }
+        (out_dir / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1), encoding="utf-8")
+
+        legacy = out_dir / "messages.json"
+        if legacy.exists():
+            legacy.unlink()
+            print(f"  absorbed legacy {legacy} into monthly shards and removed it", flush=True)
+        return len(topics), remaining
+
     fetched = 0
-    errors = 0
+    consecutive_errors = 0
     for topic in pending[: args.max_fetch]:
         try:
             fetch_topic_messages(args.group, topic)
             fetched += 1
+            consecutive_errors = 0
+        except urllib.error.HTTPError as e:
+            if e.code in (403, 404):
+                # topic deleted or restricted since it was listed — record and move on
+                topic["messages"] = []
+                topic["fetch_error"] = f"HTTP {e.code}"
+                print(f"    {topic['id']}: HTTP {e.code}, marking unavailable", flush=True)
+            else:
+                consecutive_errors += 1
+                print(f"    failed {topic['id']}: {e}", flush=True)
         except Exception as e:
-            errors += 1
+            consecutive_errors += 1
             print(f"    failed {topic['id']}: {e}", flush=True)
-            if errors >= 10:
-                print("Too many consecutive-ish failures, stopping body fetches for this run.", flush=True)
-                break
-        if fetched % 25 == 0 and fetched:
+        if consecutive_errors >= 10:
+            print("10 consecutive failures — stopping body fetches for this run.", flush=True)
+            break
+        if fetched and fetched % 200 == 0:
+            save()  # checkpoint so a long backfill can't lose an hour of work
+            print(f"  checkpoint: {fetched}/{min(len(pending), args.max_fetch)} fetched", flush=True)
+        elif fetched and fetched % 25 == 0:
             print(f"  fetched {fetched}/{min(len(pending), args.max_fetch)} topic pages", flush=True)
         time.sleep(args.delay)
 
-    topics = sorted(store.values(), key=lambda t: (t.get("created_ts") or 0, t["id"]))
-    remaining = sum(1 for t in topics if t["messages"] is None)
-    doc = {
-        "meta": {
-            "group": args.group,
-            "group_email": group_email,
-            "group_url": f"{BASE}/g/{args.group}",
-            "scraped_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "topics_reported_by_google": reported_total,
-            "topics_in_file": len(topics),
-            "topics_pending_bodies": remaining,
-            "complete": remaining == 0,
-        },
-        "topics": topics,
-    }
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+    total, remaining = save()
     print(
-        f"Wrote {out_path} — {len(topics)} topics, {fetched} bodies fetched this run, "
+        f"Wrote monthly shards to {out_dir} — {total} topics, {fetched} bodies fetched this run, "
         f"{remaining} still pending",
         flush=True,
     )

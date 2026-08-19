@@ -25,18 +25,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Scrape group into data/messages.json
+      - name: Scrape group into monthly JSON files
         run: |
           python3 scrape.py \
             --group systems-neuroscience \
-            --out data/messages.json \
+            --out-dir data \
             --max-fetch "${{ github.event.inputs.max_fetch || '3' }}"
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/messages.json
+          git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

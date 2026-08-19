@@ -1,8 +1,10 @@
 # systems-neuro-scrape
 
-Scrapes [systems-neuroscience Google Group](https://groups.google.com/g/systems-neuroscience) messages and packages them into a public JSON file, updated daily by GitHub Actions. Intended for use by developer platforms with strict domain approval and enforced adherence to public API endpoints (specifically, /r/neuroscience's Carberry-3000 bot).
+Scrapes [systems-neuroscience Google Group](https://groups.google.com/g/systems-neuroscience) messages and packages them into public JSON files (monthly shards), updated daily by GitHub Actions. Intended for use by developer platforms with strict domain approval and enforced adherence to public API endpoints (specifically, /r/neuroscience's Carberry-3000 bot).
 
-- **Output:** [`data/messages.json`](data/messages.json)
+- **Output:**
+  - [`data/messages-YYYY-MM.json`](data/)
+  - [`data/index.json`](data/index.json) (lists every month w/ global metadata)
 - **Schedule:** daily at 05:23 UTC via [`.github/workflows/scrape.yml`](.github/workflows/scrape.yml)
 
 ## How it works
@@ -15,6 +17,8 @@ The modern Google Groups UI renders its data as JSON inside `AF_initDataCallback
 
 ## Output format
 
+`data/index.json` carries the global metadata and the month list:
+
 ```jsonc
 {
   "meta": {
@@ -26,6 +30,23 @@ The modern Google Groups UI renders its data as JSON inside `AF_initDataCallback
     "topics_in_file": 2763,
     "topics_pending_bodies": 0,
     "complete": true
+  },
+  "months": [
+    { "month": "2017-01", "file": "messages-2017-01.json", "topics": 21, "topics_pending_bodies": 0 },
+    { "month": "2026-08", "file": "messages-2026-08.json", "topics": 4,  "topics_pending_bodies": 0 }
+  ]
+}
+```
+
+Each `data/messages-YYYY-MM.json` holds any topics created that month:
+
+```jsonc
+{
+  "meta": {
+    "group": "systems-neuroscience",
+    "month": "2026-08",
+    "topics": 4,
+    "topics_pending_bodies": 0
   },
   "topics": [                       
     {
