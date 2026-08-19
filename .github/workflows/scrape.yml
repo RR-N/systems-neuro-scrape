@@ -9,7 +9,7 @@ on:
       max_fetch:
         description: "Max topic pages to fetch this run (raise for faster backfill)"
         required: false
-        default: "500"
+        default: "3"
 
 permissions:
   contents: write
@@ -30,7 +30,7 @@ jobs:
           python3 scrape.py \
             --group systems-neuroscience \
             --out data/messages.json \
-            --max-fetch "${{ github.event.inputs.max_fetch || '500' }}"
+            --max-fetch "${{ github.event.inputs.max_fetch || '3' }}"
 
       - name: Commit and push if changed
         run: |
