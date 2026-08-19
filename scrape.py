@@ -168,6 +168,37 @@ def html_to_text(body_html):
     return p.text()
 
 
+# ------------------------------------------------------------------- redaction
+
+EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
+MAILTO_RE = re.compile(r"""(href=(["']))mailto:[^"']*(\2)""", re.IGNORECASE)
+REDACTED = "EMAIL_REDACTED"
+
+
+def redact_emails(text):
+    """Replace email addresses (and whole mailto: hrefs, which may be
+    URL-encoded) with EMAIL_REDACTED. Idempotent."""
+    if not text:
+        return text
+    text = MAILTO_RE.sub(lambda m: f"{m.group(1)}mailto:{REDACTED}{m.group(3)}", text)
+    return EMAIL_RE.sub(REDACTED, text)
+
+
+def redact_topic(topic):
+    """Scrub every content field of a topic record in place. Safe to apply
+    repeatedly, so it runs both at ingestion and on previously stored data."""
+    for k in ("title", "snippet"):
+        if topic.get(k):
+            topic[k] = redact_emails(topic[k])
+    if topic.get("authors"):
+        topic["authors"] = [redact_emails(a) if a else a for a in topic["authors"]]
+    for m in topic.get("messages") or []:
+        for k in ("title", "body_html", "body_text", "author"):
+            if m.get(k):
+                m[k] = redact_emails(m[k])
+    return topic
+
+
 # --------------------------------------------------------------- record building
 
 def iso(epoch):
@@ -186,7 +217,7 @@ def topic_from_meta(meta, group_name):
         pass
     last = meta[4][0] if isinstance(meta[4], list) else None
     created = meta[5][0] if isinstance(meta[5], list) else None
-    return {
+    return redact_topic({
         "id": meta[1],
         "url": f"{BASE}/g/{group_name}/c/{meta[1]}",
         "title": meta[2] or "",
@@ -198,7 +229,7 @@ def topic_from_meta(meta, group_name):
         "num_messages": meta[6] if isinstance(meta[6], int) else None,
         "authors": authors,
         "messages": None,  # null = listing known, bodies not fetched yet
-    }
+    })
 
 
 def message_from_entry(entry):
@@ -233,16 +264,19 @@ def message_from_entry(entry):
     except (IndexError, TypeError):
         pass
 
+    body_html = redact_emails(body_html)
     return {
         "id": meta[1],
-        "author": author,
+        "author": redact_emails(author) if author else author,
         "author_id": author_id,
         "created": iso(created) if created else None,
         "created_ts": created,
         "updated": iso(updated) if updated else None,
-        "title": meta[5] if len(meta) > 5 else None,
+        "title": redact_emails(meta[5]) if len(meta) > 5 and meta[5] else None,
         "body_html": body_html,
-        "body_text": html_to_text(body_html),
+        # redact again after tag-stripping: an address split across HTML tags
+        # reassembles in the text rendering and would slip the HTML-level pass
+        "body_text": redact_emails(html_to_text(body_html)),
     }
 
 
@@ -375,7 +409,9 @@ def load_store(out_dir):
         for t in doc.get("topics", []):
             old = store.get(t["id"])
             if old is None or rank(t) > rank(old):
-                store[t["id"]] = t
+                # re-scrub on load so data stored before the redaction pass
+                # existed (or before a rule improved) gets cleaned up too
+                store[t["id"]] = redact_topic(t)
     return store
 
 
