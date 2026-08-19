@@ -1,0 +1,46 @@
+name: Scrape Google Group
+
+on:
+  schedule:
+    # Daily at 05:23 UTC (odd minute to avoid the top-of-hour cron rush)
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+    inputs:
+      max_fetch:
+        description: "Max topic pages to fetch this run (raise for faster backfill)"
+        required: false
+        default: "500"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scrape group into data/messages.json
+        run: |
+          python3 scrape.py \
+            --group systems-neuroscience \
+            --out data/messages.json \
+            --max-fetch "${{ github.event.inputs.max_fetch || '500' }}"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/messages.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update scraped messages ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
