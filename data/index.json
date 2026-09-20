@@ -3,10 +3,10 @@
   "group": "systems-neuroscience",
   "group_email": "systems-neuroscience@googlegroups.com",
   "group_url": "https://groups.google.com/g/systems-neuroscience",
-  "scraped_at": "2026-09-20T09:55:02Z",
-  "topics_reported_by_google": 2769,
-  "topics_in_file": 2770,
-  "topics_pending_bodies": 1811,
+  "scraped_at": "2026-09-20T20:45:07Z",
+  "topics_reported_by_google": 2777,
+  "topics_in_file": 2778,
+  "topics_pending_bodies": 1319,
   "complete": false
  },
  "months": [
@@ -248,181 +248,181 @@
    "month": "2020-04",
    "file": "messages-2020-04.json",
    "topics": 20,
-   "topics_pending_bodies": 20
+   "topics_pending_bodies": 16
   },
   {
    "month": "2020-05",
    "file": "messages-2020-05.json",
    "topics": 7,
-   "topics_pending_bodies": 7
+   "topics_pending_bodies": 2
   },
   {
    "month": "2020-06",
    "file": "messages-2020-06.json",
    "topics": 18,
-   "topics_pending_bodies": 18
+   "topics_pending_bodies": 0
   },
   {
    "month": "2020-07",
    "file": "messages-2020-07.json",
    "topics": 17,
-   "topics_pending_bodies": 17
+   "topics_pending_bodies": 0
   },
   {
    "month": "2020-08",
    "file": "messages-2020-08.json",
    "topics": 17,
-   "topics_pending_bodies": 17
+   "topics_pending_bodies": 0
   },
   {
    "month": "2020-09",
    "file": "messages-2020-09.json",
    "topics": 25,
-   "topics_pending_bodies": 25
+   "topics_pending_bodies": 0
   },
   {
    "month": "2020-10",
    "file": "messages-2020-10.json",
    "topics": 23,
-   "topics_pending_bodies": 23
+   "topics_pending_bodies": 0
   },
   {
    "month": "2020-11",
    "file": "messages-2020-11.json",
    "topics": 34,
-   "topics_pending_bodies": 34
+   "topics_pending_bodies": 0
   },
   {
    "month": "2020-12",
    "file": "messages-2020-12.json",
    "topics": 20,
-   "topics_pending_bodies": 20
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-01",
    "file": "messages-2021-01.json",
    "topics": 19,
-   "topics_pending_bodies": 19
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-02",
    "file": "messages-2021-02.json",
    "topics": 22,
-   "topics_pending_bodies": 22
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-03",
    "file": "messages-2021-03.json",
    "topics": 2,
-   "topics_pending_bodies": 2
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-04",
    "file": "messages-2021-04.json",
    "topics": 18,
-   "topics_pending_bodies": 18
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-05",
    "file": "messages-2021-05.json",
    "topics": 6,
-   "topics_pending_bodies": 6
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-06",
    "file": "messages-2021-06.json",
    "topics": 17,
-   "topics_pending_bodies": 17
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-07",
    "file": "messages-2021-07.json",
    "topics": 6,
-   "topics_pending_bodies": 6
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-08",
    "file": "messages-2021-08.json",
    "topics": 7,
-   "topics_pending_bodies": 7
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-09",
    "file": "messages-2021-09.json",
    "topics": 20,
-   "topics_pending_bodies": 20
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-10",
    "file": "messages-2021-10.json",
    "topics": 22,
-   "topics_pending_bodies": 22
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-11",
    "file": "messages-2021-11.json",
    "topics": 15,
-   "topics_pending_bodies": 15
+   "topics_pending_bodies": 0
   },
   {
    "month": "2021-12",
    "file": "messages-2021-12.json",
    "topics": 10,
-   "topics_pending_bodies": 10
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-01",
    "file": "messages-2022-01.json",
    "topics": 19,
-   "topics_pending_bodies": 19
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-02",
    "file": "messages-2022-02.json",
    "topics": 19,
-   "topics_pending_bodies": 19
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-03",
    "file": "messages-2022-03.json",
    "topics": 26,
-   "topics_pending_bodies": 26
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-04",
    "file": "messages-2022-04.json",
    "topics": 22,
-   "topics_pending_bodies": 22
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-05",
    "file": "messages-2022-05.json",
    "topics": 28,
-   "topics_pending_bodies": 28
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-06",
    "file": "messages-2022-06.json",
    "topics": 22,
-   "topics_pending_bodies": 22
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-07",
    "file": "messages-2022-07.json",
    "topics": 8,
-   "topics_pending_bodies": 8
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-08",
    "file": "messages-2022-08.json",
    "topics": 10,
-   "topics_pending_bodies": 10
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-09",
    "file": "messages-2022-09.json",
    "topics": 29,
-   "topics_pending_bodies": 11
+   "topics_pending_bodies": 0
   },
   {
    "month": "2022-10",
@@ -704,6 +704,12 @@
    "month": "2026-08",
    "file": "messages-2026-08.json",
    "topics": 11,
+   "topics_pending_bodies": 0
+  },
+  {
+   "month": "2026-09",
+   "file": "messages-2026-09.json",
+   "topics": 8,
    "topics_pending_bodies": 0
   }
  ]
