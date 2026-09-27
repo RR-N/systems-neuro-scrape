@@ -3,7 +3,7 @@
   "group": "systems-neuroscience",
   "month": "2020-04",
   "topics": 20,
-  "topics_pending_bodies": 1
+  "topics_pending_bodies": 0
  },
  "topics": [
   {
@@ -127,7 +127,19 @@
    "authors": [
     "Luke Sjulson"
    ],
-   "messages": null
+   "messages": [
+    {
+     "id": "GQkkYwKDCAAJ",
+     "author": "Luke Sjulson",
+     "author_id": "117897411699942548611",
+     "created": "2020-04-06T20:45:09Z",
+     "created_ts": 1586205909,
+     "updated": "2020-04-07T08:56:18Z",
+     "title": "two research assistant positions available starting summer 2020",
+     "body_html": "<div dir=\"ltr\">hi everyone,<div><br></div><div>My lab is recruiting two research assistants starting this summer. Depending on the applicant, this could either be for a 1-2 year period to gain experience before graduate/medical school, or it could be for a longer-term lab manager role. The two RAs together will be expected to perform numerous different tasks ranging from engineering to animal behavior to molecular work, so we are aiming to recruit one applicant with an engineering/physics background and another with a neuroscience/biology background.</div><div><br></div><div>We work on decision-making and drug addiction using mouse models. The main part of the lab studies interactions between hippocampus, striatum, and prefrontal cortex using simultaneous multi-region silicon probe recordings in animals performing reward- or drug-based decision-making tasks. We also make heavy use of fiber photometry, in vivo two photon imaging, and optogenetic manipulation triggered by real-time LFP analyses. A second arm of the lab is more translationally-oriented, using rodent models to develop novel gene-based treatments for drug addiction. </div><div><br></div><div>For more info see here: <a href=\"http://sjulsonlab.org/positions-available/\" target=\"_blank\" rel=\"nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=en-US&amp;q=http://sjulsonlab.org/positions-available/&amp;source=gmail&amp;ust=1790591949901000&amp;usg=AOvVaw2yHMpoSptcKE9K5xCtGxEP\">http://sjulsonlab.org/positions-available/</a>  </div><div><br></div><div>Please forward this email to anyone you think may be interested.</div><div><br></div><div>thanks!</div><div><br></div><div>Luke</div><div><br clear=\"all\"><div><div dir=\"ltr\" class=\"gmail_signature\" data-smartmail=\"gmail_signature\"><div dir=\"ltr\"><div><div dir=\"ltr\"><div><div dir=\"ltr\"><div><div dir=\"ltr\">--</div><div dir=\"ltr\">Lucas L. Sjulson, MD, PhD<br>Assistant Professor<br>Department of Psychiatry and Behavioral Sciences<br>Dominick P. Purpura Department of Neuroscience<br>Albert Einstein College of Medicine<br>Rose F. Kennedy Center, Room 227<br>1410 Pelham Parkway South, Bronx, NY 10461<br>office: <a href=\"tel:(718)%20430-2453\" value=\"+17184302453\" target=\"_blank\" rel=\"nofollow\">718-430-2453</a>, lab: <a href=\"tel:(718)%20430-4271\" value=\"+17184304271\" target=\"_blank\" rel=\"nofollow\">718-430-4271</a></div><div dir=\"ltr\">fax: <a href=\"tel:(718)%20430-8821\" value=\"+17184308821\" target=\"_blank\" rel=\"nofollow\">718-430-8821</a></div><div dir=\"ltr\"><a href=\"https://twitter.com/lukesjulson\" target=\"_blank\" rel=\"nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=en-US&amp;q=https://twitter.com/lukesjulson&amp;source=gmail&amp;ust=1790591949901000&amp;usg=AOvVaw1ZBj60elQAuoaa4cOPCFGq\">@lukesjulson</a>, <a href=\"http://sjulsonlab.org\" target=\"_blank\" rel=\"nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=en-US&amp;q=http://sjulsonlab.org&amp;source=gmail&amp;ust=1790591949901000&amp;usg=AOvVaw0-icGLl-pPS_1lHwxx8ALC\">http://sjulsonlab.org</a></div></div></div></div></div></div></div></div></div></div></div>\r\n",
+     "body_text": "hi everyone,\n\nMy lab is recruiting two research assistants starting this summer. Depending on the applicant, this could either be for a 1-2 year period to gain experience before graduate/medical school, or it could be for a longer-term lab manager role. The two RAs together will be expected to perform numerous different tasks ranging from engineering to animal behavior to molecular work, so we are aiming to recruit one applicant with an engineering/physics background and another with a neuroscience/biology background.\n\nWe work on decision-making and drug addiction using mouse models. The main part of the lab studies interactions between hippocampus, striatum, and prefrontal cortex using simultaneous multi-region silicon probe recordings in animals performing reward- or drug-based decision-making tasks. We also make heavy use of fiber photometry, in vivo two photon imaging, and optogenetic manipulation triggered by real-time LFP analyses. A second arm of the lab is more translationally-oriented, using rodent models to develop novel gene-based treatments for drug addiction.\n\nFor more info see here: http://sjulsonlab.org/positions-available/\n\nPlease forward this email to anyone you think may be interested.\n\nthanks!\n\nLuke\n\n--\nLucas L. Sjulson, MD, PhD\nAssistant Professor\nDepartment of Psychiatry and Behavioral Sciences\nDominick P. Purpura Department of Neuroscience\nAlbert Einstein College of Medicine\nRose F. Kennedy Center, Room 227\n1410 Pelham Parkway South, Bronx, NY 10461\noffice: 718-430-2453, lab: 718-430-4271\nfax: 718-430-8821\n@lukesjulson, http://sjulsonlab.org"
+    }
+   ]
   },
   {
    "id": "SvStacHhlJk",
