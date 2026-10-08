@@ -2,8 +2,8 @@
  "meta": {
   "group": "systems-neuroscience",
   "month": "2026-09",
-  "topics": 8,
-  "topics_pending_bodies": 0
+  "topics": 11,
+  "topics_pending_bodies": 3
  },
  "topics": [
   {
@@ -221,6 +221,51 @@
      "body_text": "We are recruiting a scientist to join us in the Straw Lab at the University of Freiburg, Germany.\n\nThe scientist will work on the neural and computational mechanisms of visual navigation in honey bees.\n\nRead more about the position and submit applications at https://uni-freiburg.de/en/job/00005148/\n\nI’d be happy to discuss the position or answer questions.\n\nI’d also be grateful if you could forward this announcement to potentially interested people or networks.\n\nBest regards,\nAndrew Straw\n\n_______________________________________________\nProf. Dr. Andrew D. Straw\nFaculty of Biology, University of FreiburgHauptstr. 1\n79104 Freiburg im Breisgau, Germany\n\nhttps://strawlab.org/\nEMAIL_REDACTED\noffice: +49 761 203 67685\nmobile: +49 1575 88 78729\nadmin: +49 761 203 2539"
     }
    ]
+  },
+  {
+   "id": "H4yH9dk3ckQ",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/H4yH9dk3ckQ",
+   "title": "Upcoming Open Lab Online seminars and workshops",
+   "snippet": "Dear all, We are happy to share several upcoming Open Lab Online events on open tools, training, and",
+   "created": "2026-09-24T13:08:31Z",
+   "created_ts": 1790255311,
+   "last_activity": "2026-10-08T10:58:10Z",
+   "last_activity_ts": 1791457090,
+   "num_messages": 1,
+   "authors": [
+    "Mateusz Kostecki"
+   ],
+   "messages": null
+  },
+  {
+   "id": "oz0AvYocL44",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/oz0AvYocL44",
+   "title": "Tenure-Track Assistant Prof. position in behavioral/systems neuroscience at Florida State University",
+   "snippet": "The Department of Psychology at Florida State University (FSU) invites applicants for a full-time",
+   "created": "2026-09-29T12:08:24Z",
+   "created_ts": 1790683704,
+   "last_activity": "2026-10-08T10:58:08Z",
+   "last_activity_ts": 1791457088,
+   "num_messages": 1,
+   "authors": [
+    "Adam Dewan"
+   ],
+   "messages": null
+  },
+  {
+   "id": "tMMYbPziPwI",
+   "url": "https://groups.google.com/g/systems-neuroscience/c/tMMYbPziPwI",
+   "title": "Applications Open: SWC Systems Neuroscience PhD Programme in London",
+   "snippet": "Applications are now open for the 2027 intake of the Sainsbury Wellcome Centre (SWC) PhD programme at",
+   "created": "2026-09-30T10:02:16Z",
+   "created_ts": 1790762536,
+   "last_activity": "2026-10-08T10:58:08Z",
+   "last_activity_ts": 1791457088,
+   "num_messages": 1,
+   "authors": [
+    "Alison Cranage"
+   ],
+   "messages": null
   }
  ]
 }
