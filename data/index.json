@@ -3,10 +3,10 @@
   "group": "systems-neuroscience",
   "group_email": "systems-neuroscience@googlegroups.com",
   "group_url": "https://groups.google.com/g/systems-neuroscience",
-  "scraped_at": "2026-10-20T10:14:01Z",
-  "topics_reported_by_google": 2788,
-  "topics_in_file": 2789,
-  "topics_pending_bodies": 1240,
+  "scraped_at": "2026-10-21T10:23:38Z",
+  "topics_reported_by_google": 2793,
+  "topics_in_file": 2794,
+  "topics_pending_bodies": 1242,
   "complete": false
  },
  "months": [
@@ -715,8 +715,8 @@
   {
    "month": "2026-10",
    "file": "messages-2026-10.json",
-   "topics": 8,
-   "topics_pending_bodies": 0
+   "topics": 13,
+   "topics_pending_bodies": 2
   }
  ]
 }
