@@ -3,7 +3,7 @@
   "group": "systems-neuroscience",
   "month": "2019-11",
   "topics": 29,
-  "topics_pending_bodies": 29
+  "topics_pending_bodies": 28
  },
  "topics": [
   {
@@ -439,7 +439,19 @@
    "authors": [
     "Sylvia Aßlaber"
    ],
-   "messages": null
+   "messages": [
+    {
+     "id": "dHbSvKFMBwAJ",
+     "author": "Sylvia Aßlaber",
+     "author_id": "112752221812640358720",
+     "created": "2019-11-28T15:17:41Z",
+     "created_ts": 1574954261,
+     "updated": "2019-11-29T08:20:00Z",
+     "title": "Event Announcement: Human Brain Project & Dutch Neuroscience: Shaping Collaborations",
+     "body_html": "<div style=\"word-wrap:break-word;line-break:after-white-space\"><p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:9pt\">Dear all,</span><span lang=\"EN-US\" style=\"font-family:&quot;Times New Roman&quot;,serif\"><u></u><u></u></span></p><p class=\"MsoNormal\"><span style=\"font-size:9pt\">The Human Brain Project is organising an event in cooperation with the University of Amsterdam called </span><b style=\"font-size:9pt\">&quot;Human Brain Project &amp; Dutch Neuroscience: Shaping Collaborations&quot; </b><span style=\"font-size:9pt\">at Pakhuis De Zwijger in </span><b style=\"font-size:9pt\">Amsterdam, Netherlands</b><span style=\"font-size:9pt\"> on </span><b style=\"font-size:9pt\">14 February 2020.</b></p><p class=\"MsoNormal\"><span style=\"font-size:9pt\">In this one-day event, HBP experts and leadership will present EBRAINS, and demonstrate the capacities of the underlying HBP platforms. A range of opportunities for engagement of researchers in the project’s activities will be presented. These presentations will be coupled with talks by Dutch researchers.</span></p><p class=\"MsoNormal\"><span style=\"font-size:9pt\">The event will be open for the wider research community and registration is open.</span></p><p class=\"MsoNormal\"><span lang=\"EN-US\" style=\"font-size:9pt\">Please find the announcement flyer attached and registration &amp; some general information about the event on our website: </span><span style=\"font-size:9pt;color:rgb(4,50,255)\"><span lang=\"EN-US\" style=\"background-color:white\"><a href=\"http://bit.ly/33tEVm9\" target=\"_blank\" rel=\"nofollow\" data-saferedirecturl=\"https://www.google.com/url?hl=en-US&amp;q=http://bit.ly/33tEVm9&amp;source=gmail&amp;ust=1794138673465000&amp;usg=AOvVaw3aylfDkWzlXhfAs_aMQ6zz\">http://bit.ly/33tEVm9</a></span></span></p><div><div dir=\"auto\" style=\"word-wrap:break-word;line-break:after-white-space\"><div dir=\"auto\" style=\"word-wrap:break-word;line-break:after-white-space\"><br></div></div><br><br></div></div>",
+     "body_text": "Dear all,\nThe Human Brain Project is organising an event in cooperation with the University of Amsterdam called \"Human Brain Project & Dutch Neuroscience: Shaping Collaborations\" at Pakhuis De Zwijger in Amsterdam, Netherlands on 14 February 2020.\nIn this one-day event, HBP experts and leadership will present EBRAINS, and demonstrate the capacities of the underlying HBP platforms. A range of opportunities for engagement of researchers in the project’s activities will be presented. These presentations will be coupled with talks by Dutch researchers.\nThe event will be open for the wider research community and registration is open.\nPlease find the announcement flyer attached and registration & some general information about the event on our website: http://bit.ly/33tEVm9"
+    }
+   ]
   }
  ]
 }
